@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Desktop\Epha\React Template\app\projects-masonry\page.js
+// File: C:\Users\HP\Desktop\Port_Folio\NewPortFolio\app\projects-masonry\page.js
 import * as entry from '../../../../app/projects-masonry/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

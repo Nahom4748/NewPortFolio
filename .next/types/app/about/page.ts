@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Desktop\Epha\React Template\app\about\page.js
+// File: C:\Users\HP\Desktop\Port_Folio\NewPortFolio\app\about\page.js
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
