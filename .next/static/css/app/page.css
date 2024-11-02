@@ -1,0 +1,11 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./components/skill.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.skill-image {
+  height: 150px; /* Set the desired equal height */
+  width: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+

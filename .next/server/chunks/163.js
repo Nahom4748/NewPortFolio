@@ -1,1 +1,0 @@
-"use strict";exports.id=163,exports.ids=[163],exports.modules={5163:(o,e,t)=>{t.r(e),t.d(e,{$$typeof:()=>d,__esModule:()=>s,default:()=>i});let r=(0,t(6843).createProxy)(String.raw`C:\Users\HP\Desktop\Port_Folio\NewPortFolio\components\ProjectGridIsotop.js`),{__esModule:s,$$typeof:d}=r,i=r.default}};

@@ -21,6 +21,59 @@ const Projects = () => {
           <div className="row align-items-center pb-25">
             <div className="col-lg-6">
               <div className="project-image wow fadeInLeft delay-0-2s">
+                <img src="assets/images/projects/petros.JPG" alt="Project" />
+              </div>
+            </div>
+            <div className="col-xl-5 col-lg-6">
+              <div className="project-content wow fadeInRight delay-0-2s">
+                <span className="sub-title">
+                  St. Petros Hospital Management System
+                </span>
+                <h3>
+                  <Link
+                    legacyBehavior
+                    href="https://st-petros-hospital-project-main.vercel.app/"
+                  >
+                    <a target="_blank">
+                      {" "}
+                      full-stack application designed to streamline hospital
+                      operations{" "}
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  web application built with React and Node.js. <br />
+                  <span className="sub-title">
+                    <b>Front-end:</b>{" "}
+                    <span className="text-white">
+                      Designed and implemented using React.js, CSS, and
+                      Bootstrap to deliver a clean, responsive, and
+                      user-friendly interface.
+                    </span>
+                  </span>
+                  <span className="sub-title">
+                    <b> Back-end:</b>{" "}
+                    <span className="text-white">
+                      Developed using Node.js and Express to handle server-side
+                      logic, while MySQL was used as the database for securely
+                      managing data.
+                    </span>
+                  </span>
+                </p>
+                <Link
+                  legacyBehavior
+                  href="https://st-petros-hospital-project-main.vercel.app/"
+                >
+                  <a className="details-btn" target="_blank">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="row align-items-center pb-25">
+            <div className="col-lg-6">
+              <div className="project-image wow fadeInLeft delay-0-2s">
                 <img
                   src="assets/images/projects/Abe-Gerage.JPG"
                   alt="Project"
