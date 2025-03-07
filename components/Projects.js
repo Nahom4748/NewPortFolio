@@ -1,4 +1,5 @@
 import Link from "next/link";
+import petros from "../public/assets/images/projects/petrosHospital.png";
 
 const Projects = () => {
   return (
@@ -21,7 +22,64 @@ const Projects = () => {
           <div className="row align-items-center pb-25">
             <div className="col-lg-6">
               <div className="project-image wow fadeInLeft delay-0-2s">
-                <img src="assets/images/projects/petros.JPG" alt="Project" />
+                <img src="assets/images/projects/Elshadai.png" alt="Project" />
+              </div>
+            </div>
+            <div className="col-xl-5 col-lg-6">
+              <div className="project-content wow fadeInRight delay-0-2s">
+                <span className="sub-title">
+                  Elshaday Apostolic Mission Project
+                </span>
+                <h3>
+                  <Link
+                    legacyBehavior
+                    href="https://www.elshaddaiapostolicmission.com/"
+                  >
+                    <a target="_blank">
+                      A multi-language full-stack web application
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  web application built with React and Node.js. <br />
+                  <span className="sub-title">
+                    <b>Front-end:</b>{" "}
+                    <span className="text-white">
+                      Designed and implemented using Frontend: React, Tailwind
+                      CSS to deliver a clean, responsive, and user-friendly
+                      interface Multi-Language Support: i18next (for translation
+                      management)
+                    </span>
+                  </span>
+                  <span className="sub-title">
+                    <b> Back-end:</b>{" "}
+                    <span className="text-white">
+                      ✅ Multi-Language Support: Users can switch between
+                      Tigrigna, Amharic, and English. ✅ Secure Authentication:
+                      Login/signup with encrypted user data. ✅ Donation System:
+                      Accepts tithes, offerings, and general donations via
+                      Stripe.
+                    </span>
+                  </span>
+                </p>
+                <Link
+                  legacyBehavior
+                  href="https://www.elshaddaiapostolicmission.com/"
+                >
+                  <a className="details-btn" target="_blank">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="row align-items-center pb-25">
+            <div className="col-lg-6">
+              <div className="project-image wow fadeInLeft delay-0-2s">
+                <img
+                  src="assets/images/projects/petrosHospital.png"
+                  alt="Project"
+                />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
@@ -30,10 +88,7 @@ const Projects = () => {
                   St. Petros Hospital Management System
                 </span>
                 <h3>
-                  <Link
-                    legacyBehavior
-                    href="https://st-petros-hospital-project-main.vercel.app/"
-                  >
+                  <Link legacyBehavior href="https://kpsh.gov.et/">
                     <a target="_blank">
                       {" "}
                       full-stack application designed to streamline hospital
@@ -60,10 +115,7 @@ const Projects = () => {
                     </span>
                   </span>
                 </p>
-                <Link
-                  legacyBehavior
-                  href="https://st-petros-hospital-project-main.vercel.app/"
-                >
+                <Link legacyBehavior href="https://kpsh.gov.et/">
                   <a className="details-btn" target="_blank">
                     <i className="far fa-arrow-right" />
                   </a>
