@@ -1,5 +1,6 @@
 import Link from "next/link";
 import petros from "../public/assets/images/projects/petrosHospital.png";
+import Image from "../public/assets/images/projects/ademamma.png";
 
 const Projects = () => {
   return (
@@ -16,6 +17,51 @@ const Projects = () => {
                 <h2>
                   Explore My <span>Top Projects</span>
                 </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row align-items-center pb-25">
+            <div className="col-lg-6">
+              <div className="project-image wow fadeInLeft delay-0-2s">
+                <img src="
+                assets/images/projects/ademamma.png" alt="Project" />
+              </div>
+            </div>
+            <div className="col-xl-5 col-lg-6">
+              <div className="project-content wow fadeInRight delay-0-2s">
+                <span className="sub-title">
+                  AndE Mamma Frontend Next js Project
+                </span>
+                <h3>
+                  <Link
+                    legacyBehavior
+                    href="https://andemamma.com/"
+                  >
+                    <a target="_blank">
+                    Ademamma – Frontend Project (Next.js & Bootstrap)
+                    </a>
+                  </Link>
+                </h3>
+                <p>
+                  web application built with React and Node.js. <br />
+                  <span className="sub-title">
+                    <b>Front-end:</b>{" "}
+                    <span className="text-white">
+                    Developed a responsive, SEO-friendly frontend for Ademamma using Next.js for server-side rendering and Bootstrap for fast, mobile-first UI development. Integrated dynamic routing, optimized performance, and ensured accessibility and cross-browser compatibility.
+                    </span>
+                  </span>
+                  <span className="sub-title">
+                
+                  </span>
+                </p>
+                <Link
+                  legacyBehavior
+                  href="https://andemamma.com/"
+                >
+                  <a className="details-btn" target="_blank">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
